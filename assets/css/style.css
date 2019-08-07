@@ -103,6 +103,9 @@
 
  
   ul.a {
+    columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
     list-style-type: square;
   }
   
@@ -235,6 +238,9 @@
     margin-top:0px;
     margin-left:20px;
   }
+  #lori a{
+    margin-left: 90px;
+  }
   
   @media screen and (max-width: 980px){
     #logo{
@@ -270,9 +276,7 @@
     footer{
       width: 100%;
     }
-    #lori a {
-      margin-left:90px
-    }
+    
   }
   
   @media screen and (max-width: 768px){
@@ -312,9 +316,7 @@
     margin-left: 20px;
     color: #0000EE;
   }
-  #lori a {
-    margin-left:90px
-  }
+ 
   
   @media screen and (max-width: 640px){
     #logo{
@@ -350,14 +352,16 @@
     .work a {
       margin-left:100px;
     }
-    #lori a {
-      margin-left:200px
-    }
+    
   .contact{
     float:left;
+  }
+  #lori a{
+    margin-left: 90px;
   }
 
     footer{
       width: 100%;
     }
   } 
+  
