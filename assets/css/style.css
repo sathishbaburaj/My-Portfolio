@@ -106,6 +106,7 @@
     columns: 3;
   -webkit-columns: 3;
   -moz-columns: 3;
+  column-gap: 40px;
     list-style-type: square;
   }
   
@@ -359,7 +360,13 @@
   #lori a{
     margin-left: 90px;
   }
-
+ul.a{
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  column-gap: 40px;
+    list-style-type: square;
+}
     footer{
       width: 100%;
     }
